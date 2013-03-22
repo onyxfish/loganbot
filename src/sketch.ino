@@ -14,8 +14,8 @@ const int ACK_PIN = 10; // yellow
 const int DATA_PIN = 13; // brown
 
 const int ANALOG_CENTER = 128;
-const int ANALOG_DEAD_ZONE_MIN = ANALOG_CENTER - 10; 
-const int ANALOG_DEAD_ZONE_MAX = ANALOG_CENTER + 10; 
+const int ANALOG_DEAD_ZONE_MIN = ANALOG_CENTER - 30; 
+const int ANALOG_DEAD_ZONE_MAX = ANALOG_CENTER + 30; 
 
 int error = 0; 
 byte left_analog = 0;
