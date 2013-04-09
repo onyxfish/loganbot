@@ -95,7 +95,8 @@ GNU General Public License for more details.
 #include <avr/io.h>
 
 #define CTRL_CLK        4
-#define CTRL_BYTE_DELAY 3
+#define CTRL_CLK_HIGH   5
+#define CTRL_BYTE_DELAY 5
 #else
 // Pic32...
 #include <pins_arduino.h>
